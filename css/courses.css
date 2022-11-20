@@ -1,0 +1,116 @@
+.courses__title {
+  padding-top: 0;
+}
+
+.course {
+  background: #EDF0F9;
+  border-radius: 20px;
+  position: relative;
+}
+
+.course:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.course__time {
+  position: absolute;
+  top: 13px;
+  right: 5px;
+  padding-left: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.course__time--bg {
+  background: url('../img/mdi_access_time.svg') no-repeat left center;
+  background-size: contain;
+}
+
+.course__info {
+  padding: 30px;
+}
+
+.course__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--main-purple);
+  margin-bottom: 15px;
+}
+
+.course__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text);
+  margin-bottom: 32px;
+}
+
+.course__button {
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .courses__title {
+    font-size: 40px;
+  }
+
+  .course {
+    max-width: 330px;
+  }
+
+  .course__avatar {
+    width: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .tcourse__title {
+    font-size: 40px;
+  }
+
+  .course {
+    margin: 0 auto;
+    max-width: 240px;
+  }
+
+  .course__info {
+    max-width: 240px;
+  }
+
+  .course__button {
+    padding: 20px 48px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .courses__title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .course {
+    margin-bottom: 30px;
+    margin: 0 auto;
+  }
+
+  .course__info {
+    max-width: 290px;
+  }
+
+  .course__title {
+    font-size: 18px;
+  }
+
+  .course__description {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}

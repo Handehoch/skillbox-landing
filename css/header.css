@@ -1,0 +1,38 @@
+.header__wrapper {
+  padding: 0;
+  background-color: var(--main-blue);
+}
+
+.header__container {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header__item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.header__item:not(:last-child) {
+  margin-right: 56px;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .header__logo {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .header__logo {
+    margin-bottom: 30px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+}
